@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Full copy of test page</title>
+<script></script>
+<style>
+
+body {background-image:url(https://zincaccountmanager.com/wp-content/uploads/2021/10/Amex-Head-Three.png); 
+      background-size: cover; 
+      background-size: cover;
+      background-repeat:no-repeat;
+      color:#0076C1;
+}
+      
+
+.logo { border-color:#0076C1 }
+
+.tile {
+   display: inline-block;
+   height: 130px;
+   list-style-type: none;
+   margin: 10px 40px 10px 20px;
+   position: relative;
+   text-align: center;
+   width: 270px;
+   border-radius: 25px; !important;
+}
+
+.button-container {
+  display: inline-block !important;
+}
+
+.tile a {text-align: center;
+  width: 300px; height: 90px !important;
+}
+ 
+.tile a {background-color: #7D317A;
+  background-image: linear-gradient(#0076C1, #0076C1, #0076C1 )
+}
+
+ .tcontainer {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    
+    .ticker-wrap {
+        width: 100%;
+        padding-left: 100%;
+        background-color: none;
+    }
+    
+    @keyframes ticker {
+        100% {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+    
+    .ticker-move {
+        display: inline-block;
+        white-space: nowrap;
+        padding-right: 100%;
+        animation-timing-function: linear;
+        animation: ticker 40s linear infinite;
+    }
+    
+    .ticker-move:hover {
+        animation-play-state: running;
+    }
+    
+    .ticker-item {
+        display: inline-block;
+        padding: 0 40px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #0076C1 !important;
+    }
+
+
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0076C1;
+}
+
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #E40F1C;
+  color: white;
+}
+
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+    *:after {
+        content: " ";
+        clear: both;
+        display: table;
+    }
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,.87);
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    height: 100%;
+}
+
+strong {
+    display: inline-block;
+}
+
+a.button {
+    text-decoration: unset;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 17pt;
+}
+
+h4 {
+    font-size: 16pt;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h4, h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.header {
+}
+
+    .header img {
+        max-height: 80px;
+        max-width: 100%;
+        vertical-align: middle;
+        border: 0px;
+    }
+
+    .header.header-login {
+    }
+
+    .logo {
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+        margin-top: -30px;
+        border-color: #d91b4f;
+        border-style: solid;
+        border-width: 2px 0;
+    }
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .content.content-login {
+    }
+
+.card {
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+    border-radius: 0;
+    margin-top: 20px;
+    border-color: #ddd;
+    background: #FFF none repeat scroll 0% 0%;
+    position: relative;
+}
+
+    .card-heading {
+        background-color: #ebeef3;
+        padding: 5px 15px;
+        border-bottom: 1px solid transparent;
+        border-color: #ddd;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        font-weight: 400;
+        font-size: 110%;
+        color: black;
+    }
+
+
+    .card-body {
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    .card.card-warning .card-heading {
+        background-color: #FBEAEF;
+    }
+
+.survey .card-heading {
+    font-size: 130%;
+}
+
+    .survey .card-heading p,
+    .survey .card-heading h1,
+    .survey .card-heading h2,
+    .survey .card-heading h3,
+    .survey .card-heading h4,
+    .survey .card-heading h5,
+    .survey .card-heading h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.card-body label {
+}
+
+div.customer-portal > h2 {
+    text-align: center;
+}
+
+.survey label {
+    font-size: 125%;
+}
+
+.survey .radio {
+    margin-top: -10px;
+}
+
+.survey .radio label {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.survey button {
+    margin-left: 10px;
+}
+
+.pay #payment-schedule p {
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.pay #payment-schedule ul  {
+    margin-left: -20px;
+}
+
+.pay #payment-schedule ul li {
+    padding: 3px;
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.table {
+    min-height: .01%;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: table;
+    border-color: grey;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+    .table tr {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table td {
+        padding: 8px;
+        line-height: 1.42857143;
+    }
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    height: 20px;
+}
+
+input[type=text] {
+    font-size: 14px;
+    width: 100%;
+    height: 34px;
+    padding: 0 15px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin: 0;
+}
+
+input[disabled="disabled"] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.checkbox {
+    padding-bottom: 8px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input[type=text].datepicker {
+    display: inherit;
+    max-width: 150px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+
+.input-group {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.form .radio label {
+    padding-left: 0;
+}
+
+.form .radio input {
+    margin-right: 10px;
+    margin-top: 9px;
+    margin-left: 10px;
+    width: auto;
+}
+
+.form .radio select {
+    margin-right: 10px;
+    margin-top: 9px;
+    margin-left: 10px;
+    display: inline-table;
+    width: auto;
+}
+
+.form .radio p {
+    display: inline-table;
+}
+
+.form .radio .radio-option {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form .radio .radio-option input[type=radio] {
+    
+}
+
+.input-group-addon:first-child {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: table-cell;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.input-group input:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    display: table-cell;
+    position: relative;
+    float: left;
+}
+
+select {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 0 15px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin: 0;
+}
+
+.money div p {
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    margin-top: 0px;
+    padding: 5.5px 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.money input.money {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.money input, .money select {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+div.money {
+    display: flex;
+}
+
+.logout-area {
+    float: right;
+}
+
+div.prefix {
+    display: flex;
+}
+
+.prefix div p {
+    align-items: center;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    margin-top: 0px;
+    padding: 5.5px 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.prefix input.prefix {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+td.postcode {
+    display: flex;
+}
+
+    td.postcode input {
+        min-width: 70px;
+        max-width: 70px;
+    }
+
+
+.button {
+    padding: 12px 62px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin: 10px 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #294681;
+    border-color: #13203b;
+    float: right;
+}
+
+    .button:active, .button:focus, .button:hover {
+        background-color: #1e335e;
+    }
+
+    .button:after {
+        height: 0;
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .button.btn-next {
+        float: right;
+    }
+
+    .button.btn-back {
+        float: left;
+        background-color: #d91b4f;
+    }
+
+        .button.btn-back:hover {
+            background-color: #630d24;
+        }
+
+    .button.btn-list {
+        margin: 5px;
+        padding: 0 60px;
+        font-size: 13px;
+        height: 35px;
+        float: none;
+    }
+
+    .button.btn-portal {
+        float: left;
+        background-color: #d91b4f;
+    }
+.button.btn-portal:hover {
+    background-color: #630d24;
+}
+
+    .button.btn-next, .button.btn-back {
+        background-color: #d91b4f;
+        border-color: #630d24;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+.well {
+    min-height: 20px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+.tile {
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-self: flex-end;
+    width: 100%;
+    display: inherit;
+}
+
+    .tile img {
+        max-width: -webkit-fill-available;
+        width: 100%;
+        box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.24);
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .tile a {
+        padding: 9px;
+        width: 300px;
+        height: 55px;
+        background-color: #294681;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        border-style: solid;
+        border-color: #13203b;
+        text-decoration: none;
+        margin: 13px auto;
+    }
+
+        .tile a i {
+            color: white;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+
+    .tile p {
+        font-size: 1.2em;
+        display: unset;
+        color: white;
+    }
+
+
+.clearfix {
+    display: block;
+    clear: both;
+    height: 0px;
+}
+
+.spacer {
+    display: block;
+    height: 50px;
+}
+
+
+.pay-amount {
+}
+
+div.image-container {
+    margin-left: -15px;
+    margin-right: -15px;
+    max-width: max-content;
+}
+
+    div.image-container img {
+        width: 100%;
+    }
+
+div.max-content {
+    margin-left: -15px;
+    margin-right: -15px;
+    max-width: max-content;
+    min-height: 20px;
+}
+
+.max-content div.pdf-wrapper {
+    width: 100%;
+    width: 100vw;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.validation-summary-errors ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.validation-summary-errors li {
+    font-weight: 600;
+    color: red;
+}
+
+.close {
+    top: -2px;
+    right: -21px;
+    
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 750px;
+    }
+
+    .max-content div.pdf-wrapper {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        width: 970px;
+    }
+
+    .max-content div.pdf-wrapper {
+        width: 970px;
+    }
+
+    .well {
+        padding: 9px 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="https://zincaccountmanager.com/">Log Out</a>
+          <a href="https://zincaccountmanager.com/">Home Page</a>
+        <a href="https://zincaccountmanager.com/contact-us/">Contact Us</a>
+      </div>
+      
+      <!-- Start of LiveChat (www.livechatinc.com) code -->
+      <script>
+          window.__lc = window.__lc || {};
+          window.__lc.license = 11334778;
+          ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+      </script>
+      <noscript><a href="https://www.livechatinc.com/chat-with/11334778/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+      <!-- End of LiveChat code -->
+      
+      
+      <body>
+          <div class="tcontainer">
+              <div class="ticker-wrap">
+                  <div class="ticker-move">
+                      <div class="ticker-item">{{Forename}}: you can settle your account with a one off payment of £{{settle}} - Payment can be made below.</div>
+                                      <div class="ticker-item">{{Forename}}: you can settle your account with a one off payment of £{{settle}} - Payment can be made below.</div>
+                                      <div class="ticker-item">{{Forename}}: you can settle your account with a one off payment of £{{settle}} - Payment can be made below.</div>
+                  </div>
+              </div>
+          </div>
+      
+      <p1>Our Client - {{ContractLetterName}}</p1>
+      <p1>Balance - £{{Balance}} </p1>
+      <p1>Minimum Payment - £{{min_due}} </p1>
+
+
+      <div class="button-container">
+        <div class="tile">
+      <a href="/customerportal/payusingsagepay?overrideAmount={{Settle}}&minimumPayment={{Settle}}&maximumPayment={{Settle}}&forcesingle=true"><i class="fas fa-credit-card" aria-hidden="true" ></i><p>Pay Your Reduced Settlement Amount of £{{settle}}</p>
+      </a></div></div>
+      
+      <div class="button-container">
+        <div class="tile">
+                  <a href="/customerportal/payusingsagepay?numberofpayments=12&paymentfrequency=4&paymentdate={{payment_date}}&overrideAmount={{Min_due}}&forceRegular=true&minimumPayment={{min_due}}&forcecpa=true" ><i class="fas fa-credit-card" aria-hidden="true"></i><p>Set Up A Payment Plan - Your Minimum Payment Is £{{min_due}}</p></a></div></div>
+                  
+      <div class="button-container">
+        <div class="tile">
+                  <a href="/customerportal/payusingsagepay?numberofpayments=12&paymentfrequency=4&paymentdate={{payment_date}}&overrideAmount={{min_due}}&minimumPayment={{min_due}}&forceSingle=true" ><i class="fas fa-credit-card" aria-hidden="true"></i><p>Make Single Payment - Your Minimum Payment is £{{min_due}}</p></a>
+          </div>
+      </div>
+      
+      <div class="tile Affordability">
+                  <a href="/CustomerPortal/Survey?SurveyId=232">
+                      <i class="fas fa-balance-scale fa-lg"></i>
+                                     <span style='color:#FFFFFF;'>Check Your Payment Offer Is Affordable Before Proceeding</span>
+                  </a>
+              </div>
+      
+</body>
+<footer></footer>
+</html>
